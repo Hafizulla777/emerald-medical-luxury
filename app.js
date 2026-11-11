@@ -271,6 +271,46 @@
   }
 
   // ------------------------------------------------------------------
+  // Counter animation for stats (index.html)
+  // ------------------------------------------------------------------
+  function animateCounter(el) {
+    const raw = (el.getAttribute('data-target') || '0').trim();
+    const match = raw.match(/^([\d.,]+)(.*)$/);
+    if (!match) {
+      el.textContent = raw;
+      return;
+    }
+    const target = parseFloat(match[1].replace(/,/g, '')) || 0;
+    const suffix = match[2] || '';
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReduced) {
+      el.textContent = target.toLocaleString('en-IN') + suffix;
+      return;
+    }
+
+    const duration = 1800;
+    const startTime = performance.now();
+
+    function format(value) {
+      return value.toLocaleString('en-IN') + suffix;
+    }
+
+    function step(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+      el.textContent = format(Math.round(target * eased));
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = format(target);
+      }
+    }
+
+    requestAnimationFrame(step);
+  }
+
+  // ------------------------------------------------------------------
   // Intersection Observer for fade-in animations
   // ------------------------------------------------------------------
   const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
@@ -278,6 +318,16 @@
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('fade-in');
+
+        // Animate stat counters when their card scrolls into view
+        if (entry.target.classList.contains('stat-card')) {
+          const numberEl = entry.target.querySelector('.stat-card__number');
+          if (numberEl && !numberEl.dataset.animated) {
+            numberEl.dataset.animated = 'true';
+            animateCounter(numberEl);
+          }
+        }
+
         observer.unobserve(entry.target);
       }
     });

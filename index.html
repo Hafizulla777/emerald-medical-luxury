@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emerald Medical Luxury | Advanced Healthcare. Compassionate Care.</title>
+  <meta name="description" content="Emerald Medical Luxury — a reputed multispecialty hospital offering advanced healthcare with compassionate care. Book an appointment with our expert doctors today." />
+  <meta name="keywords" content="multispecialty hospital, emerald medical luxury, book appointment, cardiology, neurology, orthopedics, best hospital" />
+  <meta name="author" content="Emerald Medical Luxury" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23063F3A'/%3E%3Cpath d='M16 8l4 4 8-8H8z' fill='%23C6A66B'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Emerald Medical Luxury — Home">
+        <div class="logo-mark" aria-hidden="true">&#10004;</div>
+        <div class="logo-text">Emerald <span>Medical</span></div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="departments.html" class="nav-link">Departments</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+          <li><a href="contact.html" class="nav-link nav-link--book">Book Appointment</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About Us</a></li>
+      <li class="mobile-nav__item"><a href="departments.html" class="mobile-nav__link">Departments</a></li>
+      <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Doctors</a></li>
+      <li class="mobile-nav__item"><a href="facilities.html" class="mobile-nav__link">Facilities</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__book">Book Appointment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" id="hero" aria-label="Hero">
+    <div class="hero__bg">
+      <img
+        src="assets/images/hero-bg.svg"
+        alt="Modern hospital building exterior with emerald green branding"
+        loading="eager"
+        width="1600"
+        height="900"
+      />
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__content fade-in">
+      <div class="hero__eyebrow">Multispecialty Hospital</div>
+      <h1>Advanced Healthcare.<br /><span style="color:var(--color-accent);">Compassionate Care.</span></h1>
+      <p class="hero__subtitle">
+        Experience world-class medical treatment delivered with genuine compassion. Emerald Medical Luxury combines cutting-edge technology with patient-first care across every specialty.
+      </p>
+      <div class="hero__cta">
+        <a href="contact.html" class="btn btn--hero-primary btn--full">Book an Appointment</a>
+        <a href="departments.html" class="btn btn--hero-outline btn--full">Explore Departments</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ======================== EMERGENCY BAR ======================== -->
+  <section class="section--sm" style="background:var(--color-primary); color:#fff;">
+    <div class="container">
+      <div style="display:flex; flex-direction:column; gap:var(--space-4); align-items:center; text-align:center;">
+        <div style="font-size:var(--font-size-xs); font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--color-accent);">Emergency Services</div>
+        <div style="display:flex; gap:var(--space-8); justify-content:center; flex-wrap:wrap;">
+          <div style="font-family:var(--font-display); font-size:var(--font-size-4xl); font-weight:700; color:var(--color-accent);">108</div>
+          <div style="font-size:var(--font-size-lg); color:rgba(255,255,255,0.9);">24/7 Ambulance &amp; Trauma Care</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== STATS ======================== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="50">0</div>
+          <div class="stat-card__label">Specialist Doctors</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="200">0</div>
+          <div class="stat-card__label">Inpatient Beds</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="15">0</div>
+          <div class="stat-card__label">Operation Theatres</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="50k+">0</div>
+          <div class="stat-card__label">Patients Treated</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DEPARTMENTS ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Our Expertise</span>
+        <h2>Medical Departments</h2>
+        <p>Comprehensive care across every major medical specialty, delivered by board-certified specialists.</p>
+      </div>
+      <div class="departments-grid">
+        <article class="dept-card" data-dept="cardiology">
+          <div class="dept-card__media">
+            <img src="assets/images/cardiology.svg" alt="Cardiology department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Cardiology</h3>
+            <p>Advanced heart care including diagnostics, interventional procedures, and cardiac rehabilitation.</p>
+            <ul class="dept-services">
+              <li>ECG &amp; Echocardiography</li>
+              <li>Angioplasty &amp; Stenting</li>
+              <li>Cardiac Rehabilitation</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+        <article class="dept-card" data-dept="neurology">
+          <div class="dept-card__media">
+            <img src="assets/images/neurology.svg" alt="Neurology department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Neurology</h3>
+            <p>Expert diagnosis and treatment of disorders affecting the brain, spine, and nervous system.</p>
+            <ul class="dept-services">
+              <li>Stroke Care</li>
+              <li>Epilepsy Management</li>
+              <li>Neurosurgery</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+        <article class="dept-card" data-dept="orthopedics">
+          <div class="dept-card__media">
+            <img src="assets/images/orthopedics.svg" alt="Orthopedics department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Orthopedics</h3>
+            <p>Joint replacement, sports medicine, fracture care, and arthroscopic surgery.</p>
+            <ul class="dept-services">
+              <li>Joint Replacement</li>
+              <li>Sports Medicine</li>
+              <li>Spine Surgery</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+        <article class="dept-card" data-dept="pediatrics">
+          <div class="dept-card__media">
+            <img src="assets/images/pediatrics.svg" alt="Pediatrics department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Pediatrics</h3>
+            <p>Comprehensive child healthcare from newborn care through adolescence.</p>
+            <ul class="dept-services">
+              <li>Neonatal Care</li>
+              <li>Immunization</li>
+              <li>Child Development</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+        <article class="dept-card" data-dept="gynecology">
+          <div class="dept-card__media">
+            <img src="assets/images/gynecology.svg" alt="Gynecology department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Gynecology</h3>
+            <p>Women's health services including maternity care, fertility, and minimally invasive surgery.</p>
+            <ul class="dept-services">
+              <li>Maternity Care</li>
+              <li>Fertility Treatments</li>
+              <li>Minimally Invasive Surgery</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+        <article class="dept-card" data-dept="oncology">
+          <div class="dept-card__media">
+            <img src="assets/images/oncology.svg" alt="Oncology department" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="dept-card__body">
+            <h3>Oncology</h3>
+            <p>Comprehensive cancer care with medical, surgical, and radiation oncology.</p>
+            <ul class="dept-services">
+              <li>Chemotherapy</li>
+              <li>Radiation Therapy</li>
+              <li>Palliative Care</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FEATURED DOCTORS ======================== -->
+  <section class="section section--bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Meet Our Team</span>
+        <h2>Featured Doctors</h2>
+        <p>Board-certified specialists dedicated to your health and wellbeing.</p>
+      </div>
+      <div class="doctors-grid">
+        <article class="doctor-card">
+          <div class="doctor-card__media">
+            <img src="assets/images/doctor-anita.svg" alt="Dr. Anita Sharma" loading="lazy" width="600" height="400" />
+            <div class="doctor-card__status"><span class="status-dot" aria-hidden="true"></span>Available</div>
+          </div>
+          <div class="doctor-card__body">
+            <h3>Dr. Anita Sharma</h3>
+            <div class="doctor-card__spec">Senior Cardiologist</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H8v-2c0-2.21 1.79-4 4-4h4c2.21 0 4 1.79 4 4v2c0 .55-.45 1-1 1v2c0 .55.45 1 1 1v2c0 .55-.45 1-1 1v1h2c.9 0 1.64.58 1.9 1.39l1.24 2.45c.17.34.25.72.25 1.15 0 1.61-1.35 2.92-2.93 2.92z" fill="currentColor"/></svg>MBBS, MD (Cardiology)</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V9h14v10zM7 15h5v-2H7v2z" fill="currentColor"/></svg>12 Years Experience</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z" fill="currentColor"/></svg>Mon, Wed, Fri</li>
+            </ul>
+          </div>
+          <div class="doctor-card__footer">
+            <a href="contact.html" class="btn btn--primary btn--full">Book Appointment</a>
+          </div>
+        </article>
+        <article class="doctor-card">
+          <div class="doctor-card__media">
+            <img src="assets/images/doctor-rajiv.svg" alt="Dr. Rajiv Mehta" loading="lazy" width="600" height="400" />
+            <div class="doctor-card__status"><span class="status-dot" aria-hidden="true"></span>Available</div>
+          </div>
+          <div class="doctor-card__body">
+            <h3>Dr. Rajiv Mehta</h3>
+            <div class="doctor-card__spec">Neurologist</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H8v-2c0-2.21 1.79-4 4-4h4c2.21 0 4 1.79 4 4v2c0 .55-.45 1-1 1v2c0 .55.45 1 1 1v2c0 .55-.45 1-1 1v1h2c.9 0 1.64.58 1.9 1.39l1.24 2.45c.17.34.25.72.25 1.15 0 1.61-1.35 2.92-2.93 2.92z" fill="currentColor"/></svg>MBBS, MD (Neurology)</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V9h14v10zM7 15h5v-2H7v2z" fill="currentColor"/></svg>10 Years Experience</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z" fill="currentColor"/></svg>Tue, Thu, Sat</li>
+            </ul>
+          </div>
+          <div class="doctor-card__footer">
+            <a href="contact.html" class="btn btn--primary btn--full">Book Appointment</a>
+          </div>
+        </article>
+        <article class="doctor-card">
+          <div class="doctor-card__media">
+            <img src="assets/images/doctor-sneha.svg" alt="Dr. Sneha Reddy" loading="lazy" width="600" height="400" />
+            <div class="doctor-card__status"><span class="status-dot" aria-hidden="true"></span>Available</div>
+          </div>
+          <div class="doctor-card__body">
+            <h3>Dr. Sneha Reddy</h3>
+            <div class="doctor-card__spec">Gynecologist &amp; Obstetrician</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H8v-2c0-2.21 1.79-4 4-4h4c2.21 0 4 1.79 4 4v2c0 .55-.45 1-1 1v2c0 .55.45 1 1 1v2c0 .55-.45 1-1 1v1h2c.9 0 1.64.58 1.9 1.39l1.24 2.45c.17.34.25.72.25 1.15 0 1.61-1.35 2.92-2.93 2.92z" fill="currentColor"/></svg>MBBS, MS (Obs &amp; Gyn)</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V9h14v10zM7 15h5v-2H7v2z" fill="currentColor"/></svg>8 Years Experience</li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z" fill="currentColor"/></svg>Mon, Wed, Fri</li>
+            </ul>
+          </div>
+          <div class="doctor-card__footer">
+            <a href="contact.html" class="btn btn--primary btn--full">Book Appointment</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== WHY CHOOSE ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Our Promise</span>
+        <h2>Why Choose Our Hospital</h2>
+        <p>Excellence in every aspect of care, from diagnosis to recovery.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Patient First</div>
+            <h3>Compassionate Care</h3>
+            <p>Every patient is treated with dignity, respect, and personalized attention throughout their healing journey.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Technology</div>
+            <h3>Advanced Technology</h3>
+            <p>State-of-the-art diagnostic and treatment equipment ensures accurate diagnosis and effective outcomes.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Expertise</div>
+            <h3>Board-Certified Specialists</h3>
+            <p>Our team of experienced doctors brings global expertise to deliver international standards of care.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FACILITIES ======================== -->
+  <section class="section section--bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Infrastructure</span>
+        <h2>Advanced Medical Facilities</h2>
+        <p>Modern infrastructure designed for comfort, safety, and clinical excellence.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/images/icu.svg" alt="ICU facility" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="card__body">
+            <div class="card__tag">Critical Care</div>
+            <h3>Intensive Care Unit</h3>
+            <p>24/7 monitored ICU with advanced life support systems and dedicated critical care specialists.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/images/operation-theatre.svg" alt="Operation theatre" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="card__body">
+            <div class="card__tag">Surgery</div>
+            <h3>Operation Theatres</h3>
+            <p>Modular, infection-controlled operation theatres equipped for complex surgical procedures.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/images/diagnostic-lab.svg" alt="Diagnostic lab" loading="lazy" width="600" height="400" />
+          </div>
+          <div class="card__body">
+            <div class="card__tag">Diagnostics</div>
+            <h3>Diagnostic Laboratory</h3>
+            <p>Fully automated pathology lab delivering fast, accurate results for all clinical tests.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== TESTIMONIALS ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Patient Stories</span>
+        <h2>Patient Testimonials</h2>
+        <p>What our patients say about their experience at Emerald Medical Luxury.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card__body">
+            <p style="font-style:italic; color:var(--color-text-muted); margin-bottom:var(--space-4);">"The care I received was exceptional. From the moment I walked in, every staff member was kind, professional, and attentive."</p>
+            <div style="font-weight:700;">Ramesh Kulkarni</div>
+            <div style="font-size:var(--font-size-sm); color:var(--color-text-muted);">Cardiac Patient</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <p style="font-style:italic; color:var(--color-text-muted); margin-bottom:var(--space-4);">"Emerald Medical Luxury gave my family peace of mind during a difficult time. The doctors explained everything clearly."</p>
+            <div style="font-weight:700;">Priya Deshmukh</div>
+            <div style="font-size:var(--font-size-sm); color:var(--color-text-muted);">Maternity Patient</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <p style="font-style:italic; color:var(--color-text-muted); margin-bottom:var(--space-4);">"World-class facilities and truly compassionate care. I highly recommend this hospital to everyone."</p>
+            <div style="font-weight:700;">Suresh Iyer</div>
+            <div style="font-size:var(--font-size-sm); color:var(--color-text-muted);">Orthopedic Patient</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== HEALTH AWARENESS ======================== -->
+  <section class="section section--bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Wellness</span>
+        <h2>Health Awareness</h2>
+        <p>Stay informed with expert tips to protect your health and your family's wellbeing.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Heart Health</div>
+            <h3>Keep Your Heart Healthy</h3>
+            <p>Regular checkups, a balanced diet, and exercise can significantly reduce your risk of heart disease.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Preventive Care</div>
+            <h3>Annual Health Screening</h3>
+            <p>Early detection saves lives. Schedule your annual full-body health checkup today.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <div class="card__tag">Women's Health</div>
+            <h3>Maternity Wellness</h3>
+            <p>Prenatal care, nutrition guidance, and support for a healthy pregnancy journey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== APPOINTMENT CTA ======================== -->
+  <section class="section" style="background:linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); color:#fff; text-align:center;">
+    <div class="container">
+      <h2 style="color:#fff; margin-bottom:var(--space-4);">Ready to Book Your Appointment?</h2>
+      <p style="color:rgba(255,255,255,0.9); max-width:600px; margin:0 auto var(--space-8);">Experience world-class healthcare with compassionate care. Our team is here to help you every step of the way.</p>
+      <a href="contact.html" class="btn btn--primary" style="background:var(--color-accent); color:var(--color-primary); box-shadow:var(--shadow-lg);">Book Appointment Now</a>
+    </div>
+  </section>
+
+  <!-- ======================== TRUST BADGES ======================== -->
+  <section class="section--sm" style="background:var(--color-white);">
+    <div class="container">
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <div class="trust-badge__icon" aria-hidden="true">&#10004;</div>
+          <div>
+            <div class="trust-badge__label">NABH Accredited</div>
+            <div class="trust-badge__title">Quality &amp; Patient Safety</div>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge__icon" aria-hidden="true">&#10004;</div>
+          <div>
+            <div class="trust-badge__label">ISO 9001 Certified</div>
+            <div class="trust-badge__title">Quality Management</div>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge__icon" aria-hidden="true">&#10004;</div>
+          <div>
+            <div class="trust-badge__label">24/7 Emergency</div>
+            <div class="trust-badge__title">Round the Clock Care</div>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge__icon" aria-hidden="true">&#10004;</div>
+          <div>
+            <div class="trust-badge__label">Cashless Insurance</div>
+            <div class="trust-badge__title">TPA &amp; Corporate Tie-ups</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== NEWSLETTER ======================== -->
+  <section class="section" style="background:var(--color-mint); text-align:center;">
+    <div class="container">
+      <div class="cta-box">
+        <h3>Stay Connected with Emerald Medical Luxury</h3>
+        <p>Subscribe to our newsletter for health tips, wellness updates, and hospital news delivered to your inbox.</p>
+        <form id="newsletterForm" style="max-width:480px; margin:0 auto; display:flex; gap:var(--space-3);">
+          <input type="email" id="newsletterEmail" placeholder="Enter your email" required style="flex:1; min-width:200px; padding:var(--space-4) var(--space-5); font-family:var(--font-primary); font-size:var(--font-size-base); border:2px solid rgba(255,255,255,0.2); border-radius:var(--radius-lg); background:rgba(255,255,255,0.1); color:#fff;" />
+          <button type="submit" class="btn btn--hero-primary" style="padding:var(--space-4) var(--space-8);">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo" aria-label="Emerald Medical Luxury">
+            <div class="logo-mark" aria-hidden="true">&#10004;</div>
+            <div class="logo-text">Emerald <span>Medical</span></div>
+          </a>
+          <p>Reputed multispecialty hospital delivering advanced healthcare with compassionate care. Serving the community with excellence and integrity.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06c0 5.22 3.88 9.56 8.85 9.56q.49 0 .98-.03V15.35q-.49.03-.98.03c-1.52 0-1.99-.92-1.99-1.87v-2.5h2.98v-2.36c0-2.17 1.4-2.93 2.77-2.93 1.25 0 2.21.09 2.21.09v2.46H14l-.01 2.49h-2.98v4.01h2.98V19.6c0-.03.01-.05.01-.08 0-4.32 3.03-6.97 7.32-6.97 1.37 0 2.58.23 2.58.23v2.77h2.01c1.34 0 2.56-.59 2.56-1.6 0-1.25-1.26-2.16-2.62-2.16-1.08 0-1.79.6-2.08 1.04-1.12 1.67-3.06 2.7-4.56 2.7-1.76 0-2.62-.97-2.62-2.24v-1.92l2.33-.01c-.02-1.38-.7-2.37-1.88-2.37-1.37 0-2.31.72-2.57 1.14v-2.4h-2.01V12.06C22 6.53 17.5 2.04 12 2.04"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16C6.34 2.16 1.82 6.68 1.82 12.34c0 5.66 4.52 10.18 10.18 10.18 5.66 0 10.18-4.52 10.18-10.18C22.18 6.68 17.66 2.16 12 2.16zm0 1.82C17.62 3.98 22 8.36 22 12.34c0 3.98-4.38 8.36-10 8.36-5.62 0-10-4.38-10-8.36 0-3.98 4.38-8.36 10-8.36m0 18.64c-4.9 0-8.86-3.96-8.86-8.86 0-4.9 3.96-8.86 8.86-8.86s8.86 3.96 8.86 8.86c0 4.9-3.96 8.86-8.86 8.86m0-17.1c-4.57 0-8.28 3.71-8.28 8.28 0 4.57 3.71 8.28 8.28 8.28s8.28-3.71 8.28-8.28c0-4.57-3.71-8.28-8.28-8.28z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.25 4.24zM12.93 13.32l11.04-13.12h-3.15l-7.89 9.26z"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.32 3.32 0 0 0-2.118-2.933C19.606 2.584 12.717 2.584 12 2.584S4.394 2.584 2.62 3.253a3.31 3.31 0 0 0-2.117 2.933c0 .58.062 1.154.184 1.715L.243 11.76c-.187.85-.284 1.715-.284 2.587s.098 1.737.284 2.587l2.31 4.62c.122.561.184 1.135.184 1.715a3.32 3.32 0 0 0 2.117 2.933c.843.292 1.722.439 2.62.439s1.777-.147 2.62-.439a3.31 3.31 0 0 0 2.117-2.933c.083-.561.184-1.135.184-1.715l.24-4.818c.26-.492.395-.984.439-1.473h13.51c.044.489.18.981.44 1.473l.24 4.818c0 .58.063 1.154.184 1.715a3.31 3.31 0 0 0 2.117 2.933c.843.292 1.722.439 2.62.439s1.777-.147 2.62-.439a3.31 3.31 0 0 0 2.118-2.933c0-.872-.098-1.737-.284-2.587l2.31-4.62c.186-.85.284-1.715.284-2.587s-.098-1.737-.284-2.587l-2.31-4.62c-.122-.561-.185-1.135-.185-1.715a3.32 3.32 0 0 0-2.118-2.933c-.899-.291-1.777-.438-2.62-.438-1.087 0-1.966.147-2.62.439m-11.498 6.187L5.545 6.305l6.394 12.786 6.393-12.786z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__heading">Departments</h4>
+          <ul class="footer-links">
+            <li><a href="departments.html">Cardiology</a></li>
+            <li><a href="departments.html">Neurology</a></li>
+            <li><a href="departments.html">Orthopedics</a></li>
+            <li><a href="departments.html">Pediatrics</a></li>
+            <li><a href="departments.html">Gynecology</a></li>
+            <li><a href="departments.html">Oncology</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+912277112233">+91 22 7711 2233</a></li>
+            <li><a href="tel:+919876543210">+91 98765 43210 (Emergency)</a></li>
+            <li><a href="mailto:info@emeraldmedical.in">info@emeraldmedical.in</a></li>
+            <li>123 Wellness Avenue, Bandra West, Mumbai, Maharashtra 400050, India</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Emerald Medical Luxury. All rights reserved.</p>
+        <p class="disclaimer">
+          <strong>Demo Project Disclaimer:</strong> This website is a demonstration project only. All hospital information, doctor profiles, images, and content are sample/placeholder content and must be replaced with real hospital data before any production use. No appointments are confirmed through this demo — a real backend booking system is required.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

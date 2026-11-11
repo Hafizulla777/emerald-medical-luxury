@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="gynGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="womenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gynGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#womenGlow)" />
+  <path d="M250 100 Q 250 200 300 250 Q 350 200 350 100" stroke="#C6A66B" stroke-width="6" fill="none" stroke-linecap="round" />
+  <circle cx="300" cy="175" r="16" fill="#C6A66B" />
+  <circle cx="250" cy="250" r="12" fill="#D9F0E9" opacity="0.8" />
+  <circle cx="350" cy="250" r="12" fill="#D9F0E9" opacity="0.8" />
+  <circle cx="220" cy="150" r="8" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="380" cy="150" r="8" fill="#FFFFFF" opacity="0.7" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gynecology</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Women's Health</text>
+</svg>

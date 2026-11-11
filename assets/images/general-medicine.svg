@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="genGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="genGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#genGrad)" />
+  <circle cx="300" cy="200" r="110" fill="url(#genGlow)" />
+  <rect x="180" y="120" width="240" height="150" fill="#FFFFFF" opacity="0.1" rx="10" />
+  <rect x="200" y="140" width="200" height="14" fill="#D9F0E9" opacity="0.6" rx="7" />
+  <rect x="200" y="168" width="150" height="14" fill="#D9F0E9" opacity="0.4" rx="7" />
+  <rect x="200" y="196" width="180" height="14" fill="#D9F0E9" opacity="0.4" rx="7" />
+  <circle cx="430" cy="240" r="34" fill="#C6A66B" />
+  <path d="M430 224 L430 256 M414 240 L446 240" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">General Medicine</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.85">Primary &amp; Internal Care</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="neuroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="brainGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#neuroGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#brainGlow)" />
+  <path d="M100 200 Q 150 100 300 200 T 500 200" stroke="#C6A66B" stroke-width="5" fill="none" />
+  <circle cx="300" cy="200" r="16" fill="#C6A66B" />
+  <circle cx="220" cy="170" r="9" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="380" cy="230" r="9" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="140" cy="220" r="7" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="460" cy="180" r="7" fill="#FFFFFF" opacity="0.6" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Neurology</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Brain &amp; Spine Care</text>
+</svg>

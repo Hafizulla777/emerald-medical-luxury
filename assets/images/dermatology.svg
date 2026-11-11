@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="dermGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="skinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#dermGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#skinGlow)" />
+  <circle cx="300" cy="200" r="90" fill="#FFFFFF" opacity="0.1" />
+  <circle cx="300" cy="200" r="60" fill="#D9F0E9" opacity="0.3" />
+  <circle cx="300" cy="200" r="24" fill="#C6A66B" />
+  <path d="M240 160 L 300 220 L 360 160" stroke="#C6A66B" stroke-width="4" fill="none" />
+  <circle cx="300" cy="200" r="6" fill="#FFFFFF" opacity="0.8" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Dermatology</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Skin Care</text>
+</svg>

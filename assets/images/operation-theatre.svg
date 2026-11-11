@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="otGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="otGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#otGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#otGlow)" />
+  <rect x="120" y="150" width="360" height="180" fill="#FFFFFF" opacity="0.08" rx="10" />
+  <circle cx="300" cy="240" r="55" fill="#C6A66B" opacity="0.15" />
+  <circle cx="300" cy="240" r="25" fill="#C6A66B" />
+  <rect x="270" y="160" width="60" height="16" fill="#FFFFFF" opacity="0.6" rx="8" />
+  <rect x="270" y="185" width="60" height="16" fill="#FFFFFF" opacity="0.6" rx="8" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Operation</text>
+  <text x="300" y="355" font-family="Playfair Display, serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Theatres</text>
+</svg>

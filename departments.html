@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Departments | Emerald Medical Luxury</title>
+  <meta name="description" content="Explore the medical departments at Emerald Medical Luxury — cardiology, neurology, orthopedics, pediatrics, gynecology, general medicine, dermatology, gastroenterology, urology, oncology, ENT, and emergency medicine." />
+  <meta name="keywords" content="hospital departments, cardiology, neurology, orthopedics, pediatrics, gynecology, multispecialty hospital" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23063F3A'/%3E%3Cpath d='M16 8l4 4 8-8H8z' fill='%23C6A66B'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Emerald Medical Luxury — Home">
+        <div class="logo-mark" aria-hidden="true">&#10004;</div>
+        <div class="logo-text">Emerald <span>Medical</span></div>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="departments.html" class="nav-link" aria-current="page">Departments</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+          <li><a href="contact.html" class="nav-link nav-link--book">Book Appointment</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About Us</a></li>
+      <li class="mobile-nav__item"><a href="departments.html" class="mobile-nav__link">Departments</a></li>
+      <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Doctors</a></li>
+      <li class="mobile-nav__item"><a href="facilities.html" class="mobile-nav__link">Facilities</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__book">Book Appointment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ======================== DEPT HERO ======================== -->
+  <section class="dept-hero">
+    <div class="container">
+      <h1>Medical Departments</h1>
+      <p>Comprehensive care across every major specialty, delivered by board-certified specialists using advanced technology.</p>
+    </div>
+  </section>
+
+  <!-- ======================== FILTERS ======================== -->
+  <section class="section--sm">
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn filter-btn--active" data-filter="all">All Departments</button>
+        <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+        <button class="filter-btn" data-filter="neurology">Neurology</button>
+        <button class="filter-btn" data-filter="orthopedics">Orthopedics</button>
+        <button class="filter-btn" data-filter="pediatrics">Pediatrics</button>
+        <button class="filter-btn" data-filter="gynecology">Gynecology</button>
+        <button class="filter-btn" data-filter="oncology">Oncology</button>
+        <button class="filter-btn" data-filter="emergency">Emergency Medicine</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DEPARTMENTS GRID ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="departments-grid">
+        <!-- Cardiology -->
+        <article class="dept-card" data-dept="cardiology">
+          <div class="dept-card__media">
+            <img src="assets/images/cardiology.svg" alt="Cardiology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Heart Care</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Cardiology</h3>
+            <p>Advanced cardiovascular care including diagnostics, interventional procedures, cardiac surgery, and rehabilitation.</p>
+            <ul class="dept-services">
+              <li>ECG &amp; Echocardiography</li>
+              <li>Angioplasty &amp; Stenting</li>
+              <li>Cardiac Rehabilitation</li>
+              <li>Heart Failure Management</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Neurology -->
+        <article class="dept-card" data-dept="neurology">
+          <div class="dept-card__media">
+            <img src="assets/images/neurology.svg" alt="Neurology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Brain &amp; Spine</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Neurology</h3>
+            <p>Expert diagnosis and treatment of disorders affecting the brain, spine, and nervous system.</p>
+            <ul class="dept-services">
+              <li>Stroke Care</li>
+              <li>Epilepsy Management</li>
+              <li>Neurosurgery</li>
+              <li>Headache Clinic</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Orthopedics -->
+        <article class="dept-card" data-dept="orthopedics">
+          <div class="dept-card__media">
+            <img src="assets/images/orthopedics.svg" alt="Orthopedics department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Bone &amp; Joint</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Orthopedics</h3>
+            <p>Joint replacement, sports medicine, fracture care, and arthroscopic surgery for all age groups.</p>
+            <ul class="dept-services">
+              <li>Joint Replacement</li>
+              <li>Sports Medicine</li>
+              <li>Spine Surgery</li>
+              <li>Fracture Care</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Pediatrics -->
+        <article class="dept-card" data-dept="pediatrics">
+          <div class="dept-card__media">
+            <img src="assets/images/pediatrics.svg" alt="Pediatrics department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Child Care</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Pediatrics</h3>
+            <p>Comprehensive child healthcare from newborn care through adolescence, including immunizations.</p>
+            <ul class="dept-services">
+              <li>Neonatal Care</li>
+              <li>Immunization</li>
+              <li>Child Development</li>
+              <li>Pediatric Surgery</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Gynecology -->
+        <article class="dept-card" data-dept="gynecology">
+          <div class="dept-card__media">
+            <img src="assets/images/gynecology.svg" alt="Gynecology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Women's Health</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Gynecology</h3>
+            <p>Women's health services including maternity care, fertility treatments, and minimally invasive surgery.</p>
+            <ul class="dept-services">
+              <li>Maternity Care</li>
+              <li>Fertility Treatments</li>
+              <li>Minimally Invasive Surgery</li>
+              <li>Menopause Care</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- General Medicine -->
+        <article class="dept-card" data-dept="general">
+          <div class="dept-card__media">
+            <img src="assets/images/general-medicine.svg" alt="General medicine" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Primary Care</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>General Medicine</h3>
+            <p>Primary care for adults including chronic disease management, preventive health, and acute illness treatment.</p>
+            <ul class="dept-services">
+              <li>Diabetes Management</li>
+              <li>Hypertension Care</li>
+              <li>Preventive Checkups</li>
+              <li>Infectious Diseases</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Dermatology -->
+        <article class="dept-card" data-dept="dermatology">
+          <div class="dept-card__media">
+            <img src="assets/images/dermatology.svg" alt="Dermatology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Skin Care</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Dermatology</h3>
+            <p>Medical and cosmetic dermatology including skin cancer screening, acne treatment, and laser therapy.</p>
+            <ul class="dept-services">
+              <li>Skin Cancer Screening</li>
+              <li>Acne &amp; Eczema Care</li>
+              <li>Laser Therapy</li>
+              <li>Cosmetic Dermatology</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Gastroenterology -->
+        <article class="dept-card" data-dept="gastro">
+          <div class="dept-card__media">
+            <img src="assets/images/gastroenterology.svg" alt="Gastroenterology" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Digestive Health</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Gastroenterology</h3>
+            <p>Diagnosis and treatment of digestive system disorders including endoscopy and liver care.</p>
+            <ul class="dept-services">
+              <li>Endoscopy &amp; Colonoscopy</li>
+              <li>Liver Disease Care</li>
+              <li>IBD Management</li>
+              <li>Nutrition Counseling</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Urology -->
+        <article class="dept-card" data-dept="urology">
+          <div class="dept-card__media">
+            <img src="assets/images/urology.svg" alt="Urology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Urology</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Urology</h3>
+            <p>Comprehensive care for urinary tract and male reproductive health, including minimally invasive surgery.</p>
+            <ul class="dept-services">
+              <li>Kidney Stone Treatment</li>
+              <li>Prostate Care</li>
+              <li>Urological Surgery</li>
+              <li>Incontinence Management</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Oncology -->
+        <article class="dept-card" data-dept="oncology">
+          <div class="dept-card__media">
+            <img src="assets/images/oncology.svg" alt="Oncology department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">Cancer Care</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Oncology</h3>
+            <p>Comprehensive cancer care with medical, surgical, and radiation oncology plus palliative support.</p>
+            <ul class="dept-services">
+              <li>Chemotherapy</li>
+              <li>Radiation Therapy</li>
+              <li>Surgical Oncology</li>
+              <li>Palliative Care</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- ENT -->
+        <article class="dept-card" data-dept="ent">
+          <div class="dept-card__media">
+            <img src="assets/images/ent.svg" alt="ENT department" loading="lazy" width="600" height="400" />
+            <span class="card__badge">ENT</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>ENT</h3>
+            <p>Ear, nose, and throat care including hearing tests, sinus surgery, and voice disorder treatment.</p>
+            <ul class="dept-services">
+              <li>Hearing Tests</li>
+              <li>Sinus Surgery</li>
+              <li>Tonsillectomy</li>
+              <li>Voice Therapy</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="doctors.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+        <!-- Emergency Medicine -->
+        <article class="dept-card" data-dept="emergency">
+          <div class="dept-card__media">
+            <img src="assets/images/emergency.svg" alt="Emergency medicine" loading="lazy" width="600" height="400" />
+            <span class="card__badge">24/7 Emergency</span>
+          </div>
+          <div class="dept-card__body">
+            <h3>Emergency Medicine</h3>
+            <p>Round-the-clock emergency and trauma care with rapid response teams and advanced life support.</p>
+            <ul class="dept-services">
+              <li>24/7 Trauma Care</li>
+              <li>Ambulance Services</li>
+              <li>Critical Care</li>
+              <li>Emergency Surgery</li>
+            </ul>
+          </div>
+          <div class="dept-card__footer">
+            <a href="contact.html" class="btn btn--ghost btn--full">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CTA ======================== -->
+  <section class="section" style="background:linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); text-align:center;">
+    <div class="container">
+      <h2 style="color:#fff; margin-bottom:var(--space-4);">Need Help Choosing a Department?</h2>
+      <p style="color:rgba(255,255,255,0.9); max-width:600px; margin:0 auto var(--space-8);">Our care coordinators can guide you to the right specialist based on your symptoms and needs.</p>
+      <a href="contact.html" class="btn btn--primary">Book an Appointment</a>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo" aria-label="Emerald Medical Luxury">
+            <div class="logo-mark" aria-hidden="true">&#10004;</div>
+            <div class="logo-text">Emerald <span>Medical</span></div>
+          </a>
+          <p>Reputed multispecialty hospital delivering advanced healthcare with compassionate care.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06c0 5.22 3.88 9.56 8.85 9.56q.49 0 .98-.03V15.35q-.49.03-.98.03c-1.52 0-1.99-.92-1.99-1.87v-2.5h2.98v-2.36c0-2.17 1.4-2.93 2.77-2.93 1.25 0 2.21.09 2.21.09v2.46H14l-.01 2.49h-2.98v4.01h2.98V19.6c0-.03.01-.05.01-.08 0-4.32 3.03-6.97 7.32-6.97 1.37 0 2.58.23 2.58.23v2.77h2.01c1.34 0 2.56-.59 2.56-1.6 0-1.25-1.26-2.16-2.62-2.16-1.08 0-1.79.6-2.08 1.04-1.12 1.67-3.06 2.7-4.56 2.7-1.76 0-2.62-.97-2.62-2.24v-1.92l2.33-.01c-.02-1.38-.7-2.37-1.88-2.37-1.37 0-2.31.72-2.57 1.14v-2.4h-2.01V12.06C22 6.53 17.5 2.04 12 2.04"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16C6.34 2.16 1.82 6.68 1.82 12.34c0 5.66 4.52 10.18 10.18 10.18 5.66 0 10.18-4.52 10.18-10.18C22.18 6.68 17.66 2.16 12 2.16zm0 1.82C17.62 3.98 22 8.36 22 12.34c0 3.98-4.38 8.36-10 8.36-5.62 0-10-4.38-10-8.36 0-3.98 4.38-8.36 10-8.36m0 18.64c-4.9 0-8.86-3.96-8.86-8.86 0-4.9 3.96-8.86 8.86-8.86s8.86 3.96 8.86 8.86c0 4.9-3.96 8.86-8.86 8.86m0-17.1c-4.57 0-8.28 3.71-8.28 8.28 0 4.57 3.71 8.28 8.28 8.28s8.28-3.71 8.28-8.28c0-4.57-3.71-8.28-8.28-8.28z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.25 4.24zM12.93 13.32l11.04-13.12h-3.15l-7.89 9.26z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Departments</h4>
+          <ul class="footer-links">
+            <li><a href="departments.html">Cardiology</a></li>
+            <li><a href="departments.html">Neurology</a></li>
+            <li><a href="departments.html">Orthopedics</a></li>
+            <li><a href="departments.html">Pediatrics</a></li>
+            <li><a href="departments.html">Gynecology</a></li>
+            <li><a href="departments.html">Oncology</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+912277112233">+91 22 7711 2233</a></li>
+            <li><a href="tel:+919876543210">+91 98765 43210 (Emergency)</a></li>
+            <li><a href="mailto:info@emeraldmedical.in">info@emeraldmedical.in</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Emerald Medical Luxury. All rights reserved.</p>
+        <p class="disclaimer"><strong>Demo Project Disclaimer:</strong> This website is a demonstration project only. All hospital information and content are sample/placeholder content and must be replaced with real hospital data before production use.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

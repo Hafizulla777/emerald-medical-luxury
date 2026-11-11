@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="uroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="uroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#uroGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#uroGlow)" />
+  <path d="M200 180 Q 300 80 400 180" stroke="#C6A66B" stroke-width="5" fill="none" />
+  <circle cx="300" cy="130" r="16" fill="#C6A66B" />
+  <path d="M220 220 Q 300 280 380 220" stroke="#D9F0E9" stroke-width="4" fill="none" opacity="0.7" />
+  <circle cx="300" cy="220" r="10" fill="#D9F0E9" opacity="0.8" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Urology</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Urinary Health</text>
+</svg>

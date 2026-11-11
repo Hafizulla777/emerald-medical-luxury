@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="gastroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="digestGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gastroGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#digestGlow)" />
+  <path d="M150 200 Q 200 100 300 200 T 450 200" stroke="#C6A66B" stroke-width="5" fill="none" />
+  <circle cx="300" cy="200" r="18" fill="#C6A66B" />
+  <path d="M200 220 Q 250 180 300 220 T 400 220" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.6" />
+  <circle cx="300" cy="200" r="8" fill="#FFFFFF" opacity="0.8" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gastroenterology</text>
+  <text x="300" y="360" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Digestive Health</text>
+</svg>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &amp; Appointments | Emerald Medical Luxury</title>
+  <meta name="description" content="Contact Emerald Medical Luxury — hospital address, phone numbers, email, emergency contact, and online appointment booking form." />
+  <meta name="keywords" content="contact hospital, book appointment, emerald medical luxury, emergency contact, hospital address" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23063F3A'/%3E%3Cpath d='M16 8l4 4 8-8H8z' fill='%23C6A66B'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Emerald Medical Luxury — Home">
+        <div class="logo-mark" aria-hidden="true">&#10004;</div>
+        <div class="logo-text">Emerald <span>Medical</span></div>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="departments.html" class="nav-link">Departments</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+          <li><a href="contact.html" class="nav-link nav-link--book" aria-current="page">Book Appointment</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About Us</a></li>
+      <li class="mobile-nav__item"><a href="departments.html" class="mobile-nav__link">Departments</a></li>
+      <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Doctors</a></li>
+      <li class="mobile-nav__item"><a href="facilities.html" class="mobile-nav__link">Facilities</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__book">Book Appointment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ======================== CONTACT HERO ======================== -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Contact &amp; Appointments</h1>
+      <p>Get in touch with Emerald Medical Luxury or book your appointment online. We're here to help you.</p>
+    </div>
+  </section>
+
+  <!-- ======================== CONTACT LAYOUT ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Contact Info Column -->
+        <div class="contact-info">
+          <div class="info-card fade-in">
+            <div class="info-card__icon" aria-hidden="true">&#127968;</div>
+            <div class="info-card__body">
+              <h4>Hospital Address</h4>
+              <p>Emerald Medical Luxury<br/>123 Wellness Avenue, Bandra West<br/>Mumbai, Maharashtra 400050, India</p>
+            </div>
+          </div>
+          <div class="info-card fade-in">
+            <div class="info-card__icon" aria-hidden="true">&#9742;</div>
+            <div class="info-card__body">
+              <h4>Contact Numbers</h4>
+              <p><a href="tel:+912277112233" style="color:inherit; text-decoration:none;">+91 22 7711 2233</a> (Reception)<br/><a href="tel:+919876543210" style="color:inherit; text-decoration:none;">+91 98765 43210</a> (Appointments)</p>
+            </div>
+          </div>
+          <div class="info-card fade-in">
+            <div class="info-card__icon" aria-hidden="true">&#9993;</div>
+            <div class="info-card__body">
+              <h4>Email Address</h4>
+              <p><a href="mailto:info@emeraldmedical.in" style="color:inherit; text-decoration:none;">info@emeraldmedical.in</a><br/><a href="mailto:appointments@emeraldmedical.in" style="color:inherit; text-decoration:none;">appointments@emeraldmedical.in</a></p>
+            </div>
+          </div>
+          <div class="emergency-box fade-in">
+            <h4>Emergency Contact</h4>
+            <p>Available 24 hours a day, 7 days a week</p>
+            <span class="emergency-number">+91 98765 43210</span>
+            <a href="tel:+919876543210" class="btn btn--primary" style="color:#fff;">Call Emergency Now</a>
+          </div>
+          <a href="https://wa.me/919876543210?text=Hello%20Emerald%20Medical%20Luxury,%20I%20would%20like%20to%20book%20an%20appointment." class="whatsapp-btn" target="_blank" rel="noopener" data-phone="919876543210">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#fff" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.25 2.63 7.88 6.31 9.33.3.12.46.2.6.22.13 0 .26-.02.39-.06.74-.25 1.47-.75 2.04-1.47.38-.48.6-1.04.66-1.65.12-1.18-.37-2.34-1.25-3.17-.88-.82-1.86-1.27-2.9-1.39-1.04-.12-2.1.26-2.82.82-1.48 1.13-1.55 2.89-1.03 4.13.26.62.76 1.1 1.37 1.31.37.13.77.14 1.16.08.78-.11 1.52-.46 2.09-.96.48-.41.84-.95 1.03-1.55.16-.5.23-1.01.23-1.54 0-.84-.22-1.64-.6-2.37l-.02-.02c-.41-.79-.99-1.47-1.72-1.99-1.33-.93-2.87-1.13-4.27-.53-1.4.6-2.36 1.89-2.48 3.38-.07.76.18 1.48.6 2.04.19.25.41.46.65.62l.01.01c.29.22.61.4.94.52.33.12.68.18 1.03.18.22 0 .44-.02.66-.06.4-.08.8-.22 1.17-.43l.01-.01c.82-.45 1.64-.99 2.35-1.64 1.16-1.06 1.8-2.47 1.68-3.94-.06-.67-.1-1.34-.1-2.02 0-.74.04-1.47.11-2.19.04-.42.14-.82.25-1.21.22-.77.6-1.49 1.14-2.11.72-.82 1.55-1.47 2.44-1.94.44-.24.9-.39 1.35-.46.45-.07.9-.07 1.34 0 .45.07.91.22 1.35.46.89.47 1.72 1.12 2.44 1.94.54.62.92 1.34 1.14 2.11.11.39.21.79.25 1.21.07.72.11 1.45.11 2.19 0 .68-.04 1.35-.1 2.02-.12 1.47.52 2.88 1.68 3.94.71.65 1.53 1.19 2.35 1.64l.01.01c.37.21.77.35 1.17.43.22.04.44.06.66.06.35 0 .7-.06 1.03-.18.33-.12.65-.3.94-.52l.01-.01c.24-.16.46-.37.65-.62.42-.56.67-1.28.6-2.04-.12-1.49-1.08-2.78-2.48-3.38-1.4-.6-2.94-.4-4.27.53-.73.52-1.31 1.2-1.72 1.99l-.02.02c-.38.73-.6 1.53-.6 2.37 0 .53.07 1.04.23 1.54.19.6.55 1.14 1.03 1.55.57.5 1.72.85 2.09.96.39.06.79.05 1.16-.08.61-.21 1.11-.69 1.37-1.31.52-1.24.45-3-.03-4.13-.72-.56-1.78-.94-2.82-.82-1.04.12-2.02.57-2.9 1.39-.88.83-1.37 1.99-1.25 3.17.06.61.28 1.17.66 1.65.57.72 1.3 1.22 2.04 1.47.13.04.26.06.39.06.14-.02.3-.1.6-.22 3.68-1.45 6.31-5.08 6.31-9.33C22 6.48 17.52 2 12 2z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-form fade-in">
+          <div id="successMessage" class="success-message" role="status" aria-live="polite">
+            <h4>Thank You!</h4>
+            <p>Your appointment request has been received. Our team will contact you shortly to confirm your slot.</p>
+            <p class="note"><strong>Demo Notice:</strong> This is a demonstration project only. No appointment is confirmed unless a real backend booking system is connected.</p>
+          </div>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="patientName">Patient Name <span style="color:var(--color-error);">*</span></label>
+              <input type="text" id="patientName" name="patientName" placeholder="Enter full name" required />
+              <div class="error-message">Please enter your full name.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="patientPhone">Phone Number <span style="color:var(--color-error);">*</span></label>
+              <input type="tel" id="patientPhone" name="patientPhone" placeholder="+91 98765 43210" required />
+              <div class="error-message">Please enter a valid phone number.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="patientEmail">Email Address</label>
+              <input type="email" id="patientEmail" name="patientEmail" placeholder="you@example.com" />
+              <div class="error-message">Please enter a valid email address.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department <span style="color:var(--color-error);">*</span></label>
+              <select id="department" name="department" required>
+                <option value="">Select a department</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="gynecology">Gynecology</option>
+                <option value="general-medicine">General Medicine</option>
+                <option value="dermatology">Dermatology</option>
+                <option value="gastroenterology">Gastroenterology</option>
+                <option value="urology">Urology</option>
+                <option value="oncology">Oncology</option>
+                <option value="ent">ENT</option>
+                <option value="emergency">Emergency Medicine</option>
+              </select>
+              <div class="error-message">Please select a department.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="appointmentDate">Preferred Appointment Date <span style="color:var(--color-error);">*</span></label>
+              <input type="date" id="appointmentDate" name="appointmentDate" required />
+              <div class="error-message">Please select a date.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Reason for Visit</label>
+              <textarea id="message" name="message" placeholder="Tell us about your health concern…"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Request Appointment</button>
+            <button type="button" class="whatsapp-btn" style="margin-top:var(--space-4);" data-phone="919876543210">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="#fff" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.25 2.63 7.88 6.31 9.33.3.12.46.2.6.22.13 0 .26-.02.39-.06.74-.25 1.47-.75 2.04-1.47.38-.48.6-1.04.66-1.65.12-1.18-.37-2.34-1.25-3.17-.88-.82-1.86-1.27-2.9-1.39-1.04-.12-2.1.26-2.82.82-1.48 1.13-1.55 2.89-1.03 4.13.26.62.76 1.1 1.37 1.31.37.13.77.14 1.16.08.78-.11 1.52-.46 2.09-.96.48-.41.84-.95 1.03-1.55.16-.5.23-1.01.23-1.54 0-.84-.22-1.64-.6-2.37l-.02-.02c-.41-.79-.99-1.47-1.72-1.99-1.33-.93-2.87-1.13-4.27-.53-1.4.6-2.36 1.89-2.48 3.38-.07.76.18 1.48.6 2.04.19.25.41.46.65.62l.01.01c.29.22.61.4.94.52.33.12.68.18 1.03.18.22 0 .44-.02.66-.06.4-.08.8-.22 1.17-.43l.01-.01c.82-.45 1.64-.99 2.35-1.64 1.16-1.06 1.8-2.47 1.68-3.94-.06-.67-.1-1.34-.1-2.02 0-.74.04-1.47.11-2.19.04-.42.14-.82.25-1.21.22-.77.6-1.49 1.14-2.11.72-.82 1.55-1.47 2.44-1.94.44-.24.9-.39 1.35-.46.45-.07.9-.07 1.34 0 .45.07.91.22 1.35.46.89.47 1.72 1.12 2.44 1.94.54.62.92 1.34 1.14 2.11.11.39.21.79.25 1.21.07.72.11 1.45.11 2.19 0 .68-.04 1.35-.1 2.02-.12 1.47.52 2.88 1.68 3.94.71.65 1.53 1.19 2.35 1.64l.01.01c.37.21.77.35 1.17.43.22.04.44.06.66.06.35 0 .7-.06 1.03-.18.33-.12.65-.3.94-.52l.01-.01c.24-.16.46-.37.65-.62l.01-.01c.24-.16.46-.37.65-.62"/></svg>
+              WhatsApp Us Instead
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== GOOGLE MAPS ======================== -->
+  <section class="section" style="padding-top:0;">
+    <div class="container" style="max-width:100%; padding:0;">
+      <div style="border-radius:var(--radius-xl); overflow:hidden; border:1px solid var(--color-border); box-shadow:var(--shadow-lg); aspect-ratio:16/9;">
+        <iframe
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15183.673209977224!2d72.8259525702884!3d19.059575300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c630758a69e1%3A0xf4390224e37301f4!2sBandra%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin"
+          style="border:0; width:100%; height:100%; display:block;"
+          allowfullscreen=""
+          aria-label="Location of Emerald Medical Luxury on Google Maps"
+        ></iframe>
+      </div>
+      <p style="text-align:center; margin-top:var(--space-6); font-size:var(--font-size-sm); color:var(--color-text-muted);">
+        <strong>Sample Location:</strong> The map above shows a sample area (Bandra, Mumbai). Replace with your hospital's actual Google Maps embed code before launch.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================== FAQ SECTION ======================== -->
+  <section class="section section--bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Frequently Asked Questions</span>
+        <h2>Have Questions?</h2>
+        <p>Find answers to common questions about appointments and our services.</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            How do I book an appointment?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            You can book an appointment online using our appointment form, call us at +91 22 7711 2233, or WhatsApp us at +91 98765 43210. Our team will confirm your slot within 24 hours.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Do you accept emergency walk-ins?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            Yes, our Emergency &amp; Trauma Care department is open 24/7. Walk-in emergency patients are welcome at any time. For critical emergencies, call +91 98765 43210 immediately.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            What insurance plans do you accept?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            We accept most major health insurance plans including cashless facilities. Please contact our billing department at +91 22 7711 2233 to verify your specific coverage.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            What are your visiting hours?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            General visiting hours are 11:00 AM to 1:00 PM and 5:00 PM to 7:00 PM daily. ICU and critical care visiting hours may vary — please check with the nursing station.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Can I get a second opinion?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            Yes, we offer second opinion consultations across all specialties. You can book an appointment with any of our specialists for a comprehensive review of your case.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Do you offer home sample collection?
+            <div class="faq-toggle"></div>
+          </button>
+          <div class="faq-answer">
+            Yes, our Advanced Diagnostic Laboratory offers home sample collection services across Mumbai. Call +91 22 7711 2233 to schedule a home visit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== NEWSLETTER ======================== -->
+  <section class="section" style="background:var(--color-mint); text-align:center;">
+    <div class="container">
+      <div class="cta-box">
+        <h3>Stay Connected with Emerald Medical Luxury</h3>
+        <p>Subscribe to our newsletter for health tips, wellness updates, and hospital news delivered to your inbox.</p>
+        <form id="newsletterForm" style="max-width:480px; margin:0 auto; display:flex; gap:var(--space-3);">
+          <input type="email" id="newsletterEmail" placeholder="Enter your email" required style="flex:1; min-width:200px; padding:var(--space-4) var(--space-5); font-family:var(--font-primary); font-size:var(--font-size-base); border:2px solid rgba(255,255,255,0.2); border-radius:var(--radius-lg); background:rgba(255,255,255,0.1); color:#fff;" />
+          <button type="submit" class="btn btn--hero-primary" style="padding:var(--space-4) var(--space-8);">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo" aria-label="Emerald Medical Luxury">
+            <div class="logo-mark" aria-hidden="true">&#10004;</div>
+            <div class="logo-text">Emerald <span>Medical</span></div>
+          </a>
+          <p>Reputed multispecialty hospital delivering advanced healthcare with compassionate care.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06c0 5.22 3.88 9.56 8.85 9.56q.49 0 .98-.03V15.35q-.49.03-.98.03c-1.52 0-1.99-.92-1.99-1.87v-2.5h2.98v-2.36c0-2.17 1.4-2.93 2.77-2.93 1.25 0 2.21.09 2.21.09v2.46H14l-.01 2.49h-2.98v4.01h2.98V19.6c0-.03.01-.05.01-.08 0-4.32 3.03-6.97 7.32-6.97 1.37 0 2.58.23 2.58.23v2.77h2.01c1.34 0 2.56-.59 2.56-1.6 0-1.25-1.26-2.16-2.62-2.16-1.08 0-1.79.6-2.08 1.04-1.12 1.67-3.06 2.7-4.56 2.7-1.76 0-2.62-.97-2.62-2.24v-1.92l2.33-.01c-.02-1.38-.7-2.37-1.88-2.37-1.37 0-2.31.72-2.57 1.14v-2.4h-2.01V12.06C22 6.53 17.5 2.04 12 2.04"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16C6.34 2.16 1.82 6.68 1.82 12.34c0 5.66 4.52 10.18 10.18 10.18 5.66 0 10.18-4.52 10.18-10.18C22.18 6.68 17.66 2.16 12 2.16zm0 1.82C17.62 3.98 22 8.36 22 12.34c0 3.98-4.38 8.36-10 8.36-5.62 0-10-4.38-10-8.36 0-3.98 4.38-8.36 10-8.36m0 18.64c-4.9 0-8.86-3.96-8.86-8.86 0-4.9 3.96-8.86 8.86-8.86s8.86 3.96 8.86 8.86c0 4.9-3.96 8.86-8.86 8.86m0-17.1c-4.57 0-8.28 3.71-8.28 8.28 0 4.57 3.71 8.28 8.28 8.28s8.28-3.71 8.28-8.28c0-4.57-3.71-8.28-8.28-8.28z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.25 4.24zM12.93 13.32l11.04-13.12h-3.15l-7.89 9.26z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Departments</h4>
+          <ul class="footer-links">
+            <li><a href="departments.html">Cardiology</a></li>
+            <li><a href="departments.html">Neurology</a></li>
+            <li><a href="departments.html">Orthopedics</a></li>
+            <li><a href="departments.html">Pediatrics</a></li>
+            <li><a href="departments.html">Gynecology</a></li>
+            <li><a href="departments.html">Oncology</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+912277112233">+91 22 7711 2233</a></li>
+            <li><a href="tel:+919876543210">+91 98765 43210 (Emergency)</a></li>
+            <li><a href="mailto:info@emeraldmedical.in">info@emeraldmedical.in</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Emerald Medical Luxury. All rights reserved.</p>
+        <p class="disclaimer"><strong>Demo Project Disclaimer:</strong> This website is a demonstration project only. All hospital information, contact details, maps, and content are sample/placeholder content and must be replaced with real hospital data before production use. No appointments are confirmed unless a real backend booking system is connected.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

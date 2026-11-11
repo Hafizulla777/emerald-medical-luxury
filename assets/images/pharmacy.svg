@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="pharmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#063F3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#087F73;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="pharmGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C6A66B;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#C6A66B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#pharmGrad)" />
+  <circle cx="300" cy="200" r="100" fill="url(#pharmGlow)" />
+  <rect x="120" y="150" width="120" height="150" fill="#FFFFFF" opacity="0.15" rx="6" />
+  <rect x="360" y="150" width="120" height="150" fill="#FFFFFF" opacity="0.15" rx="6" />
+  <rect x="140" y="160" width="80" height="22" fill="#C6A66B" rx="2" />
+  <rect x="380" y="160" width="80" height="22" fill="#C6A66B" rx="2" />
+  <rect x="140" y="195" width="80" height="22" fill="#D9F0E9" rx="2" />
+  <rect x="380" y="195" width="80" height="22" fill="#D9F0E9" rx="2" />
+  <rect x="140" y="230" width="80" height="22" fill="#C6A66B" rx="2" />
+  <rect x="380" y="230" width="80" height="22" fill="#D9F0E9" rx="2" />
+  <text x="300" y="330" font-family="Playfair Display, serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">24/7 Pharmacy</text>
+</svg>
